@@ -28,7 +28,7 @@ export default async function Home() {
                 Explore pages
               </Link>
               <Link
-                href="/about-us"
+                href="/conference"
                 className="rounded-full border border-white/40 px-5 py-3 font-semibold text-white transition hover:bg-white/10"
               >
                 See example page
