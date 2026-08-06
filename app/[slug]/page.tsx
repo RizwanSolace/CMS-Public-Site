@@ -30,7 +30,7 @@ export default async function Page({ params }: Props) {
         <img
           src={page.featuredImage.url}
           alt={page.featuredImage.originalName || page.title}
-          className="mb-8 h-80 w-full rounded-2xl object-cover shadow-sm"
+          className="mb-8 w-full max-h-[32rem] rounded-2xl object-contain shadow-sm"
         />
       ) : null}
 
