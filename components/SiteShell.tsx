@@ -58,9 +58,9 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
             <Link href="#pages" className="transition hover:text-blue-600">
               Pages
             </Link>
-            <a href={`mailto:${settings.contactEmail}`} className="transition hover:text-blue-600">
+            <Link href="/contact" className="transition hover:text-blue-600">
               Contact
-            </a>
+            </Link>
           </nav>
         </div>
       </header>
