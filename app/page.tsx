@@ -1,7 +1,9 @@
 import Link from "next/link";
 import api from "@/lib/axios";
+export const dynamic = "force-dynamic";
 
 export default async function Home() {
+ 
   const { data: res } = await api.get("/pages");
   const pages = Array.isArray(res?.data) ? res.data : [];
 
